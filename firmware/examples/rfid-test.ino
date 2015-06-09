@@ -1,5 +1,5 @@
 // This #include statement was automatically added by the Particle IDE.
-#include "Innovations-RFID.h"
+#include "innovations-rfid.h"
 
 #define RFIDResetPin D6
 #define DEBUG_MODE
