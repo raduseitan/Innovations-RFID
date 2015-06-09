@@ -1,0 +1,7 @@
+{
+    "name": "innovations-rfid",
+    "version": "0.0.1",
+    "author": "Radu-Cristian SEITAN raduseitan@hotmail.com",
+    "license": "GPL v3 (http://www.gnu.org/licenses/gpl.html)",
+    "description": "Innovations ID-2/ID-12/ID-20 RFID Sensor library"
+}
