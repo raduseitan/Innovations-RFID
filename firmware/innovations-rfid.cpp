@@ -10,7 +10,7 @@
 * This library supports the Innovations ID-x sensor on the following pins
 * VIN, GND, Tx, D6 (this digital input is configurable from setup() function)
 */
-#include "Innovations-RFID.h"
+#include "innovations-rfid/innovations-rfid.h"
 
 #define DEBUG_MODE_RFID
 
