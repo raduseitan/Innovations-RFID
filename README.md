@@ -44,7 +44,7 @@
     <p>
         <b>Example:</b><br />
     </p>
-    '''cpp
+    ```cpp
     #include "innovations-rfid/innovations-rfid.h"
     #define RFIDResetPin D6
 
@@ -65,6 +65,6 @@
         }
     }
 
-    '''
+    ```
 </body>
 </html>
