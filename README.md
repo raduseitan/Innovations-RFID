@@ -43,28 +43,28 @@
     <p></p>
     <p>
         <b>Example:</b><br />
-        '''
-        #include "innovations-rfid/innovations-rfid.h"
-        #define RFIDResetPin D6
+    </p>
+    '''
+    #include "innovations-rfid/innovations-rfid.h"
+    #define RFIDResetPin D6
 
-        InnovationsRFID rfid = InnovationsRFID();
+    InnovationsRFID rfid = InnovationsRFID();
 
-        void setup() {
+    void setup() {
         Serial.begin(9600);
         rfid.setupRFID(RFIDResetPin);
-        }
+    }
 
-        void loop() {
+    void loop() {
         if(rfid.readTag()){
-        Serial.print(rfid.tag);
-        rfid.clearTag(); //Clear the char of all value
+            Serial.print(rfid.tag);
+            rfid.clearTag(); //Clear the char of all value
         }
         else{
-        Serial.println("no tag present");
+            Serial.println("no tag present");
         }
-        }
+    }
 
-        '''
-    </p>
+    '''
 </body>
 </html>
