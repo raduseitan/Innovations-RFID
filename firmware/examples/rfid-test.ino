@@ -10,8 +10,8 @@ char tag2[11] = "0B002CB350";
 InnovationsRFID rfid = InnovationsRFID();
 
 void setup() {
-#ifdef DEBUG_MODE    
     Serial.begin(9600);
+#ifdef DEBUG_MODE    
     for (int i=0;i<50;i++){
 		delay(200);
     }
@@ -52,12 +52,12 @@ void checkTag(char tag[]){
     if(strlen(tag) == 0) return; //empty, no need to contunue
     
     if(rfid.compareTag(tag, tag1)){
-        Serial.println("banut mic");
+        Serial.println("small tag");
         blinkLED(true);
     }
     else{
         if(rfid.compareTag(tag, tag2)){
-            Serial.println("breloc albastru");
+            Serial.println("blue tag");
             blinkLED(true);
         }
         else{
