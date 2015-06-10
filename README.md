@@ -45,6 +45,7 @@
         <b>Example:</b><br />
     </p>
     ```cpp
+    
     #include "innovations-rfid/innovations-rfid.h"
     #define RFIDResetPin D6
 
